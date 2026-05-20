@@ -265,6 +265,7 @@ export default function Home() {
             src="/images/hero-bg.jpg"
             alt="MS Jani - profesionalna montaža klim in ogrevanja"
             fill
+            sizes="100vw"
             className="object-cover"
             priority
             quality={85}
@@ -387,6 +388,7 @@ export default function Home() {
                       src={service.image}
                       alt={service.title}
                       fill
+                      sizes="(max-width: 768px) 100vw, 50vw"
                       className="object-cover group-hover:scale-105 transition-transform duration-700"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-[#161923] via-[#161923]/30 to-transparent" />
@@ -428,9 +430,10 @@ export default function Home() {
             <FadeIn>
               <div className="relative rounded-2xl overflow-hidden aspect-[4/3] shadow-2xl shadow-black/40">
                 <Image
-                  src="/about.jpg"
+                  src="/images/about.jpg"
                   alt="MS Jani - moderna hiša z toplotno črpalko"
                   fill
+                  sizes="(max-width: 1024px) 100vw, 50vw"
                   className="object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-tr from-emerald-600/20 to-transparent" />
