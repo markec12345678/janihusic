@@ -14,24 +14,32 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Z.ai Code Scaffold - AI-Powered Development",
-  description: "Modern Next.js scaffold optimized for AI-powered development with Z.ai. Built with TypeScript, Tailwind CSS, and shadcn/ui.",
-  keywords: ["Z.ai", "Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui", "AI development", "React"],
-  authors: [{ name: "Z.ai Team" }],
-  icons: {
-    icon: "https://z-cdn.chatglm.cn/z-ai/static/logo.svg",
-  },
+  title: "MS Jani - Montaža in storitve | Klima, Ogrevanje, Toplotne črpalke",
+  description:
+    "Profesionalne HVAC rešitve v Beli krajini. Klimatske naprave, ogrevanje, toplotne črpalke in vodoinštalacije. 12+ let izkušenj, F-gas certificiran. Kontakt: 040 451 221",
+  keywords: [
+    "MS Jani",
+    "klimatske naprave",
+    "ogrevanje",
+    "toplotne črpalke",
+    "vodoinštalacije",
+    "Bela krajina",
+    "Črnomelj",
+    "Gradac",
+    "HVAC",
+    "montaža klimatskih naprav",
+    "servis klimatskih naprav",
+    "talno ogrevanje",
+    "F-gas",
+    "Janez Husič",
+  ],
+  authors: [{ name: "MS Jani - Janez Husič s.p." }],
   openGraph: {
-    title: "Z.ai Code Scaffold",
-    description: "AI-powered development with modern React stack",
-    url: "https://chat.z.ai",
-    siteName: "Z.ai",
+    title: "MS Jani - Montaža in storitve",
+    description:
+      "Profesionalne HVAC rešitve v Beli krajini. Klima, ogrevanje, toplotne črpalke, vodoinštalacije.",
     type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Z.ai Code Scaffold",
-    description: "AI-powered development with modern React stack",
+    locale: "sl_SI",
   },
 };
 
@@ -41,7 +49,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="sl" suppressHydrationWarning>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background text-foreground`}
       >
